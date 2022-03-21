@@ -1,4 +1,6 @@
-# Konotee
+[WIP]
+
+# Jubung
 
 Webapp skeleton using symfony framework
 
@@ -12,6 +14,6 @@ composer install
 
 yarn install
 
-yarn encore dev-server1
+yarn encore dev-server
 
 ```
