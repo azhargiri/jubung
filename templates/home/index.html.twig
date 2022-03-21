@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hi!{% endblock %}
+
+{% block body %}
+<style>
+    .home-wrapper { margin: 1em auto; width: 80%; }
+	.top-nav { margin: 0; padding: 0; width:100%; height: 30px; }
+	.top-nav ul { display: flex; margin: 5px; list-style: none; float: right }
+	.top-nav ul li { padding: 1px 10px; }
+</style>
+
+<nav class="top-nav">
+	<ul>
+		<li><a href="{{ path('app_login')}}">Login</a></li>
+	</ul>
+</nav>
+
+<div class="home-wrapper">
+	<h1>Hi, Konotee is here</h>
+
+</div>
+{% endblock %}
